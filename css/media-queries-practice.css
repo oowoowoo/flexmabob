@@ -5,3 +5,100 @@ Author: Your Name Here
 
 ----------------------------------------- */
 
+* {
+    box-sizing: border-box;
+}
+
+p, .h1, .h2, .h3, .h4 {
+    font-size: 35px;
+}
+
+.flexbox {
+    border: 10px solid darkorange;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 480px) {
+    .flexbox {
+        border: 10px solid blue;
+        
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+.box0 {
+    background-color: darkorchid;
+}
+
+.box1 {
+    background-color: darkred;
+}
+
+.box2 {
+    background-color: darkseagreen;
+}
+
+.box3 {
+    background-color: darkslateblue;
+}
+
+.box4 {
+    background-color: dodgerblue;
+}
+
+.box5 {
+    background-color: gold;
+}
+
+.box6 {
+    background-color: greenyellow;
+}
+
+.box7 {
+    background-color: hotpink;
+}
+
+.box8 {
+    background-color: brown;
+}
+
+.box9 {
+    background-color: coral;
+}
+
+
+.flex-container, .flex-container2, .flex-container3, .flex-container4 {
+    width: 100%;
+    display: flex;
+}
+
+
+.box0 {
+    width: 100%;
+    border: 5px solid black;
+}
+
+.box1, .box2, .box3 {
+    width: 33.33%;
+    border: 5px solid black;
+}
+
+.box4, .box5 {
+    width: 50%;
+    border: 5px solid black;
+}
+
+.box6, .box7, .box8, .box9 {
+    width: 25%;
+    border: 5px solid black;
+}
+
