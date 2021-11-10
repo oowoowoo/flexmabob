@@ -7,6 +7,7 @@ Author: Your Name Here
 
 * {
     box-sizing: border-box;
+    max-width: 960px;
 }
 
 p, .h1, .h2, .h3, .h4 {
@@ -34,6 +35,18 @@ p, .h1, .h2, .h3, .h4 {
     }
 
 }
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
+    .flexbox {
+        border: 10px solid salmon;
+    }
+
+    p {
+        color: silver;
+        font-size: 30px;
+    }
+}
+
 
 .box0 {
     background-color: darkorchid;
